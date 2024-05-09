@@ -1,0 +1,36 @@
+header {
+    background-color: #579FB8;
+    padding: 50px;
+    display: flex;
+    
+}
+
+#logo {
+    width: 100px;
+    position: absolute;
+    left: 859px;
+    top: 7px;
+}
+
+.container{
+    display: flex;
+    padding: 10px;
+  
+}
+.menu{
+    position: absolute;
+    top: 40px;
+   left: 50px;
+   font-size: 25px;
+   color: white;
+ 
+
+}
+
+.slide{
+    padding-top: 30px;
+    width: 1800px;
+    opacity: 95%;
+    position: absolute;
+    left: 15px;
+}
