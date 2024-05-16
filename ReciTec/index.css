@@ -4,7 +4,9 @@ header {
     display: flex;
     
 }
-
+body{
+    background-color: rgba(240, 237, 237, 0.807);
+}
 #logo {
     width: 100px;
     position: absolute;
@@ -48,8 +50,9 @@ header {
 .grid-container {
     display: flex;
     overflow-x: auto; /* Adiciona uma barra de rolagem horizontal caso o conteúdo ultrapasse a largura da tela */
-    position: absolute;
-    top: 800px;
+    position: absolute; 
+    top: 890px;
+    left: 114px;
     align-items: center;
     
     
@@ -58,7 +61,7 @@ header {
 
 .grid-item {
     flex: 0 0 auto; /* Permite que as imagens tenham seu tamanho natural */
-    margin-right: 30px; /* Espaçamento entre as imagens */
+    margin-right: 90px; /* Espaçamento entre as imagens */
 ;
   
 }
@@ -67,5 +70,16 @@ header {
     max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
     height: auto; /* Mantém a proporção original das imagens */
     border-radius: 7%;
-    width: 400px;
+    width: 340px;
+
+}
+
+.grid-item img {
+    transition: transform 0.3s ease; /* Define a transição de transformação */
+    width: 340px; /* Para garantir que a imagem se ajuste ao contêiner */
+    height: auto; /* Para garantir que a imagem se ajuste ao contêiner */
+}
+
+.grid-item:hover img {
+    transform: scale(1.2); /* Aumenta a escala da imagem em 20% */
 }
