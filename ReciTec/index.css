@@ -34,3 +34,38 @@ header {
     position: absolute;
     left: 15px;
 }
+
+.linha{
+   position: absolute;
+    top: 750px;
+    left: 450px;
+    border: none;
+    border-top: 1px solid #0f9ea2; /* Cor da linha */
+    margin: 0 auto;
+    width: 50%; 
+}
+
+.grid-container {
+    display: flex;
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal caso o conteúdo ultrapasse a largura da tela */
+    position: absolute;
+    top: 800px;
+    align-items: center;
+    
+    
+
+}
+
+.grid-item {
+    flex: 0 0 auto; /* Permite que as imagens tenham seu tamanho natural */
+    margin-right: 30px; /* Espaçamento entre as imagens */
+;
+  
+}
+
+.grid-item img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+    height: auto; /* Mantém a proporção original das imagens */
+    border-radius: 7%;
+    width: 400px;
+}
