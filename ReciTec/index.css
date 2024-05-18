@@ -1,17 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 header {
-    background-color: #579FB8;
+    background-color: #000000;
     padding: 50px;
+    align-items: center;
     display: flex;
+    margin: 0 auto;
     
 }
-body{
-    background-color: rgba(240, 237, 237, 0.807);
-}
-#logo {
+
+.logo {
     width: 100px;
-    position: absolute;
-    left: 859px;
-    top: 7px;
+    margin: auto;
 }
 
 .container{
@@ -20,27 +25,32 @@ body{
   
 }
 .menu{
-    position: absolute;
-    top: 40px;
-   left: 50px;
    font-size: 25px;
    color: white;
+   margin: 25px auto;
  
 
 }
 
+body{
+    background-color: rgba(240, 237, 237, 0.807);
+}
+
+main{
+    background-color: rgba(53, 53, 53, 0.705);
+    width: 1037px;
+    align-items: center;
+    margin: auto;
+}
+
+
 .slide{
     padding-top: 30px;
-    width: 1800px;
+    width: 1000px;
     opacity: 95%;
-    position: absolute;
-    left: 15px;
 }
 
 .linha{
-   position: absolute;
-    top: 750px;
-    left: 450px;
     border: none;
     border-top: 1px solid #0f9ea2; /* Cor da linha */
     margin: 0 auto;
@@ -49,14 +59,8 @@ body{
 
 .grid-container {
     display: flex;
-    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal caso o conteúdo ultrapasse a largura da tela */
-    position: absolute; 
-    top: 890px;
-    left: 114px;
-    align-items: center;
-    
-    
-
+    width: 200px;
+    margin-top: 10px;
 }
 
 .grid-item {
